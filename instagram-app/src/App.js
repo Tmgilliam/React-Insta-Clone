@@ -34,6 +34,7 @@ class App extends React.Component {
           newSearch={this.state.search}
           searchFilter={this.searchFilter}
         />
+        <CommentSection/>
 
         <PostContainer data={this.state.data} filteredPosts={this.state.filteredPosts} searchFilter={this.searchFilter} />
     </div>
