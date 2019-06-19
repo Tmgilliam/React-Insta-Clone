@@ -62,19 +62,19 @@ const dummyData = [
     imageUrl:
       "https://tk-assets.lambdaschool.com/43bf01f9-319c-469d-8cf5-0120fe1007f1_yosemite.jpg",
     likes: 5306,
-    timestamp: "July 14th 2017, 10:04:08 am",
+    timestamp: "June 28th 2019, 10:04:08 am",
     comments: [
       {
         username: "playhearthstone",
-        text: "Love this shot!"
+        text: "You can't see me in this game!"
       },
       {
-        username: "awaywetravel",
-        text: "Yosemite is my most favorite place in the universe"
+        username: "Machu Pichu",
+        text: "On my bucket list"
       },
       {
-        username: "awesomebt28",
-        text: "I like how Half Dome looks so old and useless"
+        username: "OGTmoni1981",
+        text: "I'm for real straight out of Compton, Westside till I die."
       }
     ]
   }
