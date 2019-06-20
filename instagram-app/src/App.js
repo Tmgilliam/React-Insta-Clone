@@ -3,44 +3,47 @@ import SearchBar from './components/SearchBar/SearchBar'
 import PostContainer from './components/PostContainer/PostContainer'
 import dummyData from './dummy-data'
 
+
 import './App.css';
 
 class App extends React.Component {
-  state = { 
+  state = {
     data: [],
     filteredPosts: []
   };
 
   changeHandler = e => {
     this.setState({
-        [e.target.name]: e.target.value
+      [e.target.name]: e.target.value
     })
   }
 
-  componentDidMount(){
-    this.setState({data: dummyData})
+  componentDidMount() {
+    this.setState({ data: dummyData })
   }
 
   searchFilter = e => {
     const filtered = this.state.data.filter(post => post.username.toLowerCase().includes(e.target.value.toLowerCase()))
-    this.setState({ filteredPosts: filtered})
+    this.setState({ filteredPosts: filtered })
   }
 
   render() {
-    console.log('render',this.state.data); 
-    return ( 
-      <div className="App">
-        <SearchBar 
-          newSearch={this.state.search}
+    console.log('render', this.state.data);
+    return (
+      <div className="App" >
+        <SearchBar newSearch={this.state.search}
           searchFilter={this.searchFilter}
-        />
-        <CommentSection/>
+        /> 
+      
 
-        <PostContainer data={this.state.data} filteredPosts={this.state.filteredPosts} searchFilter={this.searchFilter} />
-    </div>
-     );
-   
-  }
+        <PostContainer data={this.state.data}
+          filteredPosts={this.state.filteredPosts}
+          searchFilter={this.searchFilter}
+        /> 
+        </div>
+    );
+
 }
- 
+}
+
 export default App;
