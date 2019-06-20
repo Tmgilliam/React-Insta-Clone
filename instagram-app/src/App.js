@@ -4,6 +4,7 @@ import PostContainer from './components/PostContainer/PostContainer'
 import dummyData from './dummy-data'
 
 
+
 import './App.css';
 
 class App extends React.Component {
@@ -33,18 +34,15 @@ class App extends React.Component {
       <div className="App" >
         <SearchBar newSearch={this.state.search}
           searchFilter={this.searchFilter}
-<<<<<<< HEAD
         /> 
       
-=======
-        />
-        {/* <CommentSection/> */}
->>>>>>> a21ea131b252369109f462d8662c39b4f9980dc9
 
         <PostContainer data={this.state.data}
           filteredPosts={this.state.filteredPosts}
           searchFilter={this.searchFilter}
         /> 
+       
+
         </div>
     );
 
