@@ -1,6 +1,9 @@
 const dummyData = [
   {
+<<<<<<< HEAD
     id: "a",
+=======
+>>>>>>> a21ea131b252369109f462d8662c39b4f9980dc9
     username: "philzcoffee",
     thumbnailUrl:
       "https://tk-assets.lambdaschool.com/ecd33d34-c124-4b75-92d2-e5c52c171ed8_11201517_887808411287357_1307163552_a.jpg",
@@ -11,25 +14,37 @@ const dummyData = [
     timestamp: "July 17th 2017, 12:42:40 pm",
     comments: [
       {
+<<<<<<< HEAD
         id: 1,
+=======
+>>>>>>> a21ea131b252369109f462d8662c39b4f9980dc9
         username: "philzcoffee",
         text:
           "We've got more than just delicious coffees to offer at our shops!"
       },
       {
+<<<<<<< HEAD
         id: 2,
+=======
+>>>>>>> a21ea131b252369109f462d8662c39b4f9980dc9
         username: "biancasaurus",
         text: "Looks delicious!"
       },
       {
+<<<<<<< HEAD
         id: 3,
+=======
+>>>>>>> a21ea131b252369109f462d8662c39b4f9980dc9
         username: "martinseludo",
         text: "Can't wait to try it!"
       }
     ]
   },
   {
+<<<<<<< HEAD
     id: "b",
+=======
+>>>>>>> a21ea131b252369109f462d8662c39b4f9980dc9
     username: "fortnite",
     thumbnailUrl:
       "https://tk-assets.lambdaschool.com/ce601fdf-7cb0-4098-83d3-1a1584a72513_30841289_342445456281079_112845064497004544_n.jpg",
@@ -39,40 +54,59 @@ const dummyData = [
     timestamp: "July 15th 2017, 03:12:09 pm",
     comments: [
       {
+<<<<<<< HEAD
         id: 1,
+=======
+>>>>>>> a21ea131b252369109f462d8662c39b4f9980dc9
         username: "twitch",
         text: "Epic Street Fighter action here in Las Vegas at #EVO2017!"
       },
       {
+<<<<<<< HEAD
         id: 2,
+=======
+>>>>>>> a21ea131b252369109f462d8662c39b4f9980dc9
         username: "michaelmarzetta",
         text: "Omg that match was crazy"
       },
       {
+<<<<<<< HEAD
         id: 3,
+=======
+>>>>>>> a21ea131b252369109f462d8662c39b4f9980dc9
         username: "themexican_leprechaun",
         text: "What a setup"
       },
       {
+<<<<<<< HEAD
         id: 4,
+=======
+>>>>>>> a21ea131b252369109f462d8662c39b4f9980dc9
         username: "dennis_futbol",
         text: "It that injustice"
       },
       {
+<<<<<<< HEAD
         id: 5,
+=======
+>>>>>>> a21ea131b252369109f462d8662c39b4f9980dc9
         username: "dennis_futbol",
         text: "Is"
       }
     ]
   },
   {
+<<<<<<< HEAD
     id: "c",
+=======
+>>>>>>> a21ea131b252369109f462d8662c39b4f9980dc9
     username: "playhearthstone",
     thumbnailUrl:
       "https://tk-assets.lambdaschool.com/c432f179-8bd7-4758-959d-d88a21f96bca_37105899_432228420518610_5035444036064772096_n.jpg",
     imageUrl:
       "https://tk-assets.lambdaschool.com/43bf01f9-319c-469d-8cf5-0120fe1007f1_yosemite.jpg",
     likes: 5306,
+<<<<<<< HEAD
     timestamp: "July 14th 2017, 10:04:08 am",
     comments: [
       {
@@ -89,6 +123,21 @@ const dummyData = [
         id: 3,
         username: "awesomebt28",
         text: "I like how Half Dome looks so old and useless"
+=======
+    timestamp: "June 28th 2019, 10:04:08 am",
+    comments: [
+      {
+        username: "playhearthstone",
+        text: "You can't see me in this game!"
+      },
+      {
+        username: "Machu Pichu",
+        text: "On my bucket list"
+      },
+      {
+        username: "OGTmoni1981",
+        text: "I'm for real straight out of Compton, Westside till I die."
+>>>>>>> a21ea131b252369109f462d8662c39b4f9980dc9
       }
     ]
   }
